@@ -1,0 +1,31 @@
+/* ---body---  */
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200;400&family=Poppins:ital,wght@0,400;0,700;1,500&family=Roboto:ital@1&family=Source+Sans+Pro:ital@1&family=Yeseva+One&display=swap');
+
+    font-family: 'Roboto',
+    sans-serif;
+  padding: 50px;
+}
+
+/*---- header ----- */
+
+section-1{
+    display: flex;
+    align-items: center;
+}
+.half-width{
+    width: 60%;
+   margin-right: 30px;
+}
+.half-width img{
+    width: 50%;
+    background-color: lightpink;
+    border-radius: 200px;
+}
+.button{
+    background-color: #E02C6D;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: lightyellow;
+}

@@ -75,5 +75,9 @@ height: 476px;
  }
  /* extra-end */
 
- 
- 
+ /*---- footer ---- */
+ footer{
+     background-color:#AAAAAA;
+     justify-items: center;
+    text-align: center;
+ }

@@ -59,7 +59,13 @@ height: 476px;
 .info-color{
     color:gray;
 }
-
+.button-2{
+ color: #E02C6D;
+    text-decoration: none;
+}
+#see{
+   justify-content: flex-end;  
+}
 /* extra-part */
  .container{
      display: flex;
@@ -68,7 +74,8 @@ height: 476px;
  }
  .box{
      width: 600px;
-     border:2px solid palevioletred;    
+     border:2px solid palevioletred;
+     margin-bottom: 30px;    
  }
  #b-2{
      flex-grow: 1;

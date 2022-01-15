@@ -1,17 +1,19 @@
 /* ---body---  */
 body{
-    @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200;400&family=Poppins:ital,wght@0,400;0,700;1,500&family=Roboto:ital@1&family=Source+Sans+Pro:ital@1&family=Yeseva+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200;400&family=Poppins:ital,wght@0,400;0,700;1,500&family=Roboto:ital@1&family=Source+Sans+Pro:ital@1&family=Yeseva+One&display=swap')
 
     font-family: 'Roboto',
     sans-serif;
   padding: 50px;
 }
 
+
 /*---- header ----- */
 
-section-1{
+section{
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 .half-width{
     width: 60%;
@@ -30,28 +32,27 @@ section-1{
     color: lightyellow;
 }
 /* ---products--- */
-.container{
-    border: 3px solid wheat;
-    padding: 5px;
-}
-.products{
+
+#products{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-colum-gap:
+    grid-column-gap:10px;
+
 }
 .products .product img{
     width: 300px;
     height: 256px;
+    border-radius: 5px;
 }
 .product{
     width: 329px;
 height: 476px;
+
 }
 .star{
-    color: orange;
+  color: #FB8200; 
 }
 .info-color{
     color:gray;
 }
-
-
+ 
